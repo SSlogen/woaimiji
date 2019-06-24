@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/py">
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="欢迎来到我爱秘籍"
+        android:textSize="35sp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/show2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="（注意！秘籍会降低游戏乐趣，请适当使用）"
+        android:layout_marginBottom="120dp"
+        android:textSize="15sp"
+        android:textColor="#4169E1"/>
+    <TextView
+        android:id="@+id/show3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="单击下面按钮，进入专区"
+        android:textSize="15sp"
+        android:textColor="@color/colorAccent"/>
+    <Button
+        android:id="@+id/ck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn1"
+        android:layout_marginBottom="32dp"
+        android:text="十字军之王2"
+        android:background="#FFC107"/>
+    <Button
+        android:id="@+id/hoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn2"
+        android:layout_marginBottom="32dp"
+        android:text="钢铁雄心4"
+        android:background="#FFC107"/>
+
+    <Button
+        android:id="@+id/eu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn3"
+        android:layout_marginBottom="32dp"
+        android:text="欧陆风云4"
+        android:background="#FFC107"/>
+    <Button
+        android:id="@+id/qx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn4"
+        android:layout_marginBottom="32dp"
+        android:text="群星"
+        android:background="#FFC107"/>
+
+
+
+</LinearLayout>

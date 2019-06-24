@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stl"
+    android:orientation="vertical"
+    android:background="@drawable/qx">
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="欢迎来到群星专区"
+        android:textSize="35sp"
+        android:textColor="#4682B4"/>
+    <TextView
+        android:id="@+id/show2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="（注意！秘籍会降低游戏乐趣，请适当使用）"
+        android:layout_marginBottom="180dp"
+        android:textSize="15sp"
+        android:textColor="#4682B4"/>
+    <TextView
+        android:id="@+id/show3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="单击下面按钮，查看相关秘籍"
+        android:textSize="15sp"
+        android:textColor="#4682B4"/>
+    <Button
+        android:id="@+id/stcye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn1"
+        android:layout_marginBottom="32dp"
+        android:text="群星事件"
+        android:background="#778899"/>
+    <Button
+        android:id="@+id/stqte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn2"
+        android:layout_marginBottom="32dp"
+        android:text="常用秘籍"
+        android:background="#778899" />
+    <TextView
+        android:id="@+id/show4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="（注意，获取数据会有延迟，请耐心等待）"
+        android:textSize="15sp"
+        android:textColor="#4682B4"/>
+
+</LinearLayout>

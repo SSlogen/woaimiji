@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eu4"
+    android:orientation="vertical"
+    android:background="@drawable/eueu">
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="欢迎来到欧陆风云专区"
+        android:textSize="35sp"
+        android:textColor="#4682B4"
+        />
+    <TextView
+        android:id="@+id/show2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="（注意！秘籍会降低游戏乐趣，请适当使用）"
+        android:layout_marginBottom="120dp"
+        android:textSize="15sp"
+        android:textColor="#4682B4"/>
+    <TextView
+        android:id="@+id/show3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="单击下面按钮，查看相关秘籍"
+        android:textSize="15sp"
+        android:textColor="#4682B4"/>
+    <Button
+        android:id="@+id/eucy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn1"
+        android:layout_marginBottom="32dp"
+        android:text="常用秘籍" />
+    <Button
+        android:id="@+id/euqt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn2"
+        android:layout_marginBottom="32dp"
+        android:text="其他指令" />
+
+    <Button
+        android:id="@+id/eugj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn3"
+        android:layout_marginBottom="32dp"
+        android:text="国家代码" />
+    <Button
+        android:id="@+id/euee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn4"
+        android:layout_marginBottom="32dp"
+        android:text="常用事件代码" />
+    <TextView
+        android:id="@+id/show4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="（注意，获取数据会有延迟，请耐心等待）"
+        android:textSize="15sp"
+        android:textColor="#4682B4"/>
+</LinearLayout>

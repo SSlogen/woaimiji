@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.woaimiji">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ckeyb"></activity>
+        <activity android:name=".ckejb" />
+        <activity android:name=".ckegx" />
+        <activity android:name=".eugj" />
+        <activity android:name=".euqt" />
+        <activity android:name=".eucj" />
+        <activity android:name=".stlc" />
+        <activity android:name=".hoisj" />
+        <activity android:name=".hoiqt" />
+        <activity android:name=".hoicy" />
+        <activity android:name=".ckqt" />
+        <activity android:name=".ckqj" />
+        <activity android:name=".ckjs" />
+        <activity android:name=".stle" />
+        <activity android:name=".stl" />
+        <activity android:name=".eue" />
+        <activity android:name=".eu4" />
+        <activity android:name=".hoi4" />
+        <activity android:name=".cke" />
+        <activity android:name=".ck2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
